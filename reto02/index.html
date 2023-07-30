@@ -8,23 +8,31 @@
 </head>
 <body>
     <header>
-        
+        <nav>
+            <ul>
+                <li><a href="">Gmail</a></li>
+                <li><a href="">Imágenes</a></li>
+                <li><a href="">Iniciar Sesión</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <a href="">Gmail</a>
-        <a href="">Imágenes</a>
-        <a href="">Iniciar Sesión</a>
-    </nav>
+    
     <section>
-        <a href=""></a><img src="images/logo.png" alt="">
-        <form>
-            <input type="text" name="busqueda">
-            <input type="submit" value="Buscar con Google">
-            <input type="submit" value="Voy a tener suerte">
-        </form>
-        <p>Ofrecido por Google en: <a href="">Español (Latinoamércia)</a></p>
+        <div class="logo">
+            <a href=""></a><img src="images/logo.png" alt="">
+        </div>
+        <div>
+            <input type="text" name="busqueda" class="search">
+        </div>
+        <div>
+            <input type="submit" value="Buscar con Google" class="search-btn">
+            <input type="submit" value="Voy a tener suerte" class="search-btn">
+        </div>
+        <p>Ofrecido por Google en: <a href="">Español (Latinoamérica)</a></p>
     </section>
+    <div class="espacio">
 
+    </div>
     <footer>
         <p>Argentina</p>
         <hr>  
@@ -33,17 +41,12 @@
             <a href="">Publicidad</a>
             <a href="">Negocios</a>
             <a href="">Cómo funciona la Búsqueda</a>
-           
         </div>
         <div class="footer-column">
             <a href="">Privacidad</a>
             <a href="">Condiciones</a>
             <a href="">Preferencias</a>
         </div>
-
-        
-
-
     </footer>
 
 
