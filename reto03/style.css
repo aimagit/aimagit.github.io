@@ -1,0 +1,19 @@
+body{
+    background: #847b9d;
+    color: white;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+} 
+
+ul{
+    list-style: none;
+}
+
+label {
+    font-size: 16px;
+    margin-left: 5px;
+    cursor: pointer;
+    position: relative;
+    padding-left: 25px;
+}
