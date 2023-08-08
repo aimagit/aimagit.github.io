@@ -7,48 +7,56 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <div class="contenedor">
     <header>
         <nav>
             <ul>
-                <li><a href="">Gmail</a></li>
-                <li><a href="">Imágenes</a></li>
-                <li><a href="">Iniciar Sesión</a></li>
+                <li><a href="https://mail.google.com/"">Gmail</a></li>
+                <li><a href="https://www.google.com/imghp?hl=es&ogbl">Imágenes</a></li>
+                <li><a href=""><img src="images/apps.png" alt="Aplicaciones de Google" class="icon"></a></li>
+                <li><a href="https://accounts.google.com/ServiceLogin?hl=es&passive=true&continue=https://www.google.com/&ec=GAZAmgQ" class="ingresar">Iniciar Sesión</a>
             </ul>
         </nav>
     </header>
-    
+        
     <section>
         <div class="logo">
-            <a href=""></a><img src="images/logo.png" alt="">
+            <img src="images/logo.png" alt="">
         </div>
-        <div>
-            <input type="text" name="busqueda" class="search">
+        <div class="contenedor-buscador" >
+            <img src="images/lupa.png" alt="">
+            <input type="text" name="buscador" class="input">
+            <img src="images/voz.png" alt="Búsqueda por voz" class="icon">
+            <img src="images/lens.png" alt="Búsqueda por imagen" class="icon">
         </div>
-        <div>
-            <input type="submit" value="Buscar con Google" class="search-btn">
-            <input type="submit" value="Voy a tener suerte" class="search-btn">
-        </div>
-        <p>Ofrecido por Google en: <a href="">Español (Latinoamérica)</a></p>
-    </section>
-    <div class="espacio">
+        
+        <div class="botones" >
+            <input type="submit" value="Buscar con Google" class="btn">
+            <input type="submit" value="Voy a tener Suerte" class="btn">
 
-    </div>
-    <footer>
-        <p>Argentina</p>
-        <hr>  
-        <div class="footer-column">
-            <a href="">Sobre Google</a>
-            <a href="">Publicidad</a>
-            <a href="">Negocios</a>
-            <a href="">Cómo funciona la Búsqueda</a>
         </div>
-        <div class="footer-column">
-            <a href="">Privacidad</a>
-            <a href="">Condiciones</a>
-            <a href="">Preferencias</a>
+        <p>Ofrecido por Google en: <a href="https://www.google.com/setprefs?sig=0_u6GA6xnM5tZQUcFhaaJY2YJURM0%3D&hl=es-419&source=homepage&sa=X&ved=0ahUKEwi3kYPp0M2AAxWSppUCHbnaBkYQ2ZgBCBE">Español (Latinoamérica)</a></p>
+    </section>
+    
+    <footer>
+        <div class="pais">
+            <p>Argentina</p>
+        </div >
+        <div class="footer-abajo">
+            <div class="derecha">
+            
+                <a href="https://about.google/?utm_source=google-AR&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre Google</a>
+                <a href="https://www.google.com/intl/es_ar/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a>
+                <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Negocios</a>
+                <a href="https://google.com/search/howsearchworks/?fg=1">Cómo funciona la Búsqueda</a>
+            </div>
+            <div class="izquierda">
+                <a href="https://policies.google.com/privacy?hl=es-AR&fg=1">Privacidad</a>
+                <a href="https://policies.google.com/terms?hl=es-AR&fg=1">Condiciones</a>
+                <a href="https://www.google.com/preferences">Preferencias</a>
+            </div>
         </div>
     </footer>
-
-
+    </div>
 </body>
 </html>
