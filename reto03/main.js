@@ -6,6 +6,8 @@ let nombre = document.getElementById ("nombre")
 let btn = document.getElementById ("btn")
 let check = document.getElementById ("tarea")
 let label = document.getElementById ("tarea1")
+let mostrarListado = document.getElementById("btn");
+let listado = document.getElementById("listado");
 
 btn.addEventListener ("click",() => {
     let tipo = nombre.value
@@ -20,3 +22,7 @@ check.addEventListener ("click", () => {
         label.style.textDecoration = "none";
     }
 });
+
+mostrarListado.addEventListener("click", () => {
+    listado.style.display = "block"
+})
