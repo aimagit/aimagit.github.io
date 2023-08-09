@@ -1,5 +1,6 @@
 body{
     background: #847b9d;
+    background: url(/images/background.png);
     color: white;
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
@@ -10,10 +11,16 @@ ul{
     list-style: none;
 }
 
+#listado{
+    display: none;
+}
+
 label {
     font-size: 16px;
     margin-left: 5px;
     cursor: pointer;
     position: relative;
     padding-left: 25px;
+    color: white;
 }
+

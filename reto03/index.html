@@ -6,80 +6,25 @@
     <title>To Do List</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <div>
+        <div id="listado">
             <h1 id="titulo">Lista de tareas</h1>
         </div>
         <div>
-            <input type="text" id="nombre">
-            <button>Registrarme</button>
+            <input type="text" id="nombre" placeholder="Tu nombre">
+            <button id="btn">Ingresar</button>
         </div>
     </header>
     
     <section>
         <div>
             <ul>
-                <li>
-                    <label for="tarea1"> 
-                        <input type="checkbox" name="tarea1" id="tarea1">
-                        Ver videos del día
-                    </label>
-                </li>
-                <li>   
-                    <label for="tarea2"> 
-                        <input type="checkbox" name="tarea2" id="tarea2">
-                        Dar presente
-                    </label>
-                </li>
                 <li>     
-                    <label for="tarea3"> 
-                        <input type="checkbox" name="tarea3" id="tarea3">
-                        Pasear a lxs perris
-                    </label>
+                    <label for="tarea" id="tarea1"> 
+                    <input type="checkbox" id="tarea">Pasear a lxs perris</label>
                 </li>
-                <li>     
-                    <label for="tarea4"> 
-                        <input type="checkbox" name="tarea4" id="tarea4">
-                        Renovar dominios
-                    </label>
-                </li>
-                <li>
-                    <label for="tarea5"> 
-                        <input type="checkbox" name="tarea5" id="tarea5">
-                        Subir actas a Moodle
-                    </label>
-                </li>
-                <li>
-                    <label for="tarea6"> 
-                        <input type="checkbox" name="tarea6" id="tarea6">
-                        Sacar turno rentas
-                    </label>
-                </li>
-                <li>
-                    <label for="tarea7"> 
-                        <input type="checkbox" name="tarea7" id="tarea7">
-                        Enviar encuesta
-                    </label>
-                </li>
-                <li>
-                    <label for="tarea8"> 
-                        <input type="checkbox" name="tarea8" id="tarea8">
-                        Cancelar kinesio
-                    </label>
-                </li>
-                <li>
-                    <label for="tarea9"> 
-                        <input type="checkbox" name="tarea9" id="tarea9">
-                        Yoga
-                    </label>
-                </li>
-                <li>
-                    <label for="tarea10s"> 
-                        <input type="checkbox" name="tarea10" id="tarea10">
-                        Comprar torta
-                    </label>
-                </li>    
             </ul>
         </div>
     </section>
