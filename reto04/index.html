@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto 4</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Pantalla 1: Inicio -->
+    <div id="pantalla1">
+            <h1 id="titulo">¡Hola! Todavía no tenes ningún alerta.</h1>
+            <h2>:(</h2>
+            <button id="mostrarP2">Agregar alerta </button>
+    </div>
+    <!-- Pantalla 2: Agregar alerta -->    
+    <div id="pantalla2" style= "display: none">
+        
+        <input type="value" id="entrada" placeholder="Nueva alerta...">
+        <button id="agregarAlerta" >Agregar </button>
+        <button id="seleccionarImg">Seleccionar una imagen </button>
+        <div id="selectorImg" disp>
+            <div class="contenedorImg">
+                <div class="img"><img src="images/amor.png" alt=""></div>
+                <div class="img"><img src="images/cansado.png" alt=""></div>
+                <div class="img"><img src="images/frio.png" alt=""></div>
+                <div class="img"><img src="images/sonriendo.png" alt=""></div>
+            </div>
+        </div>
+        <button id="verTareas">Ver tareas</button>
+
+        <select>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        
+    </div>
+    <!-- Pantalla 3: Listado  --> 
+    <div id="pantalla3" style= "display: none">
+        <div id="resultado"></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
